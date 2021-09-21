@@ -10,36 +10,9 @@ Boards and Sensors:
 2. HC-05 Bluetooth module
 3. Ultrasonic sensor
 
-
-
-
-Diagram:
-  
-
-  
-
-
-
-
-
 Theory: 
         HC-SR04 ultrasonic sensor uses SONAR to determine the distance of an object just like the bats do. It offers excellent non-contact range detection with high accuracy and stable readings in an easy-to-use package from 2 cm to 400 cm or 1” to 13 feet. 
-So in theory we can use this to stop the valve before filling up the tank to a certain level.
+So, in theory, we can use this to stop the valve before filling up the tank to a certain level.
           
 Process:
-        The ultrasonic sensor sends the delay between the sent and the received wave and Arduino calculates the distance and sends it to the phone via Bluetooth with a delay of 1 sec. The data sent is displayed on the phone and a graph is plotted of time vs the distance between sensor and water
-
-
-
-
-
-
-
-
-
-
-
-
-Links:
-Apk:https://drive.google.com/file/d/1zyss9tanRJhDi5mbl92tk8aKMSB8TNg4/view?usp=sharing
-1.
+        The ultrasonic sensor sends the delay between the sent and the received wave, and Arduino calculates the distance and sends it to the phone via Bluetooth with a delay of 1 sec. The data sent is displayed on the phone and a graph of time vs. the distance between sensor and water.
